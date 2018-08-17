@@ -1,6 +1,6 @@
 {
   "name": "timeago-puge",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "输入秒数计算出多久以前的组件",
   "author": "PUGE <my@owo.help>",
   "private": false,
