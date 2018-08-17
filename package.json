@@ -1,0 +1,31 @@
+{
+  "name": "timeago-puge",
+  "version": "1.0.0",
+  "description": "输入秒数计算出多久以前的组件",
+  "author": "PUGE <my@owo.help>",
+  "private": false,
+  "main": "./index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PUGE/timeago-PUGE.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PUGE/timeago-PUGE/issues"
+  },
+  "homepage": "https://github.com/PUGE/timeago-PUGE",
+  "keywords": [
+    "timeago",
+    "vue",
+    "puge"
+  ],
+  "engines": {
+    "node": ">= 4.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
