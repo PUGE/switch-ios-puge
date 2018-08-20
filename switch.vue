@@ -89,7 +89,7 @@ export default {
   display: block;
   width: 80px;
   height: 40px;
-  background-color: #219af2;
+  background-color: #1A8FFF;
   position: absolute;
   left: calc(-100% + 20px);
   top: 0;
