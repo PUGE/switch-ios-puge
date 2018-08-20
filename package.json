@@ -1,23 +1,21 @@
 {
-  "name": "timeago-puge",
+  "name": "switch-ios-puge",
   "version": "1.0.1",
-  "description": "输入秒数计算出多久以前的组件",
+  "description": "仿ios开关",
   "author": "PUGE <my@owo.help>",
   "private": false,
   "main": "./index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/PUGE/timeago-PUGE.git"
+    "url": "https://github.com/PUGE/switch-ios-puge.git"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/PUGE/timeago-PUGE/issues"
+    "url": "https://github.com/PUGE/switch-ios-puge/issues"
   },
-  "homepage": "https://github.com/PUGE/timeago-PUGE",
+  "homepage": "https://github.com/PUGE/switch-ios-puge",
   "keywords": [
-    "timeago",
-    "vue",
-    "puge"
+    "switch"
   ],
   "engines": {
     "node": ">= 4.0.0",
