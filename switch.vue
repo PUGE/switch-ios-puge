@@ -55,7 +55,7 @@ export default {
   margin-left: 24px;
 }
 .data-am-toggle-switch input:checked + label:after {
-  left: -20px;
+  left: 0px;
 }
 .data-am-toggle-switch label {
   width: 50px;
@@ -87,11 +87,11 @@ export default {
 .data-am-toggle-switch label:after {
   content: "";
   display: block;
-  width: 80px;
-  height: 40px;
+  width: 100%;
+  height: 100%;
   background-color: #1A8FFF;
   position: absolute;
-  left: calc(-100% + 20px);
+  left: -100%;
   top: 0;
   z-index: 10;
   transition: left 0.2s ease;
