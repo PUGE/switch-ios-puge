@@ -7,14 +7,9 @@
 
 
 <script>
-import { Order } from '@/components/Order.js'
 export default {
   props: {
-    value: Boolean,
-    updata: {
-      type: Boolean,
-      default: true
-    }
+    value: Boolean
   },
   data () {
     return {
@@ -26,10 +21,6 @@ export default {
     updateValue () {
       this.copyValue = !this.copyValue
       this.$emit('input', this.copyValue)
-      // 需要将刷新放在最后面以保证正常刷新
-      if (this.updata) {
-        Order.$emit('needUpdata')
-      }
     }
   }
 }
